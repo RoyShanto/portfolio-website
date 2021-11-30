@@ -2,16 +2,46 @@
     {
         "id": "1",
         "projectName": "Health Care",
-        "shortDescription": "It is Health care of our country. It helps people to see all department and specialist doctors"
+        "shortDescription": "It is Health care of our country. It helps people to see all department and specialist doctors",
+        "img1": "./images/health-care1.png",
+        "img2": "./images/health-care2.png",
+        "img3": "./images/health-care3.png",
+        "bulletPoint1": "Any person want to about our website",
+        "bulletPoint2": "We use firebase, react bootstrap, react router dom",
+        "bulletPoint3": "We deploy in firebase",
+        "bulletPoint4": "It Has Two type of Login System",
+        "bulletPoint5": "Take service from specialist doctor",
+        "liveSite": "https://healthcare-4bd2f.web.app/",
+        "codeLink": "https://github.com/RoyShanto/Health-care"
     },
     {
         "id": "2",
-        "projectName": "Tour-17",
-        "shortDescription": "People can easily take a plan to tour of Italy. It is very helpful for tourist."
+        "projectName": "Tour-71",
+        "shortDescription": "People can easily take a plan to tour of Italy. It is very helpful for tourist.",
+        "img1": "./images/tour-71-1.png",
+        "img2": "./images/tour-71-2.png",
+        "img3": "./images/tour-71-3.png",
+        "bulletPoint1": "People can easily tour in Italy",
+        "bulletPoint2": "People can see our Reputation",
+        "bulletPoint3": "90% traveller is happy.",
+        "bulletPoint4": "Our guide is very friendly.",
+        "bulletPoint5": "Admin can received travellers order.",
+        "liveSite": "https://tourism-9a710.web.app/",
+        "codeLink": "https://github.com/RoyShanto/Tour-17-client-side"
     },
     {
         "id": "3",
         "projectName": "Sunglass Shop",
-        "shortDescription": "Any people can take a sunglass. Low price sunglass. It has difference quality."
+        "shortDescription": "Any people can take a sunglass. Low price sunglass. It has difference quality.",
+        "img1": "./images/sunglass-shop1.png",
+        "img2": "./images/sunglass-shop2.png",
+        "img3": "./images/sunglass-shop3.png",
+        "bulletPoint1": "Customer can easily buy sunglass through this website.",
+        "bulletPoint2": "It is very easy to understand, because code structure is good.",
+        "bulletPoint3": "In has two type of users (Admin, Customer).",
+        "bulletPoint4": "Admin can make a admin.",
+        "bulletPoint5": "Admin can received customers orders.",
+        "liveSite": "https://sunglass-shop-299fb.web.app/",
+        "codeLink": "https://github.com/RoyShanto/Sunglass-Shop-client-side"
     }
 ]

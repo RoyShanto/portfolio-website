@@ -9,6 +9,7 @@ const Header = () => {
                     <Navbar.Brand href="/home">Shanto Roy</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="/home">Home</Nav.Link>
+                        <Nav.Link href="/blog">Blog</Nav.Link>
                         <Nav.Link href="/contactMe">Contact Me</Nav.Link>
                         <Nav.Link href="#pricing">About Me</Nav.Link>
                         <Nav.Link href="/resume">Resume</Nav.Link>

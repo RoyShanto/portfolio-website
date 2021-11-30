@@ -8,6 +8,8 @@ import {
 import Home from './component/Home/Home/Home';
 import Resume from './component/Home/Resume/Resume';
 import ContactMe from './component/Home/ContactMe/ContactMe';
+import ProjectDetails from './component/Home/Projects/ProjectDetails/ProjectDetails';
+import Blog from './component/Home/Blog/Blog';
 
 function App() {
   return (
@@ -20,6 +22,12 @@ function App() {
           </Route>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route exact path="/projectDetails/:projectId">
+            <ProjectDetails />
+          </Route>
+          <Route exact path="/blog">
+            <Blog />
           </Route>
           <Route exact path="/contactMe">
             <ContactMe />

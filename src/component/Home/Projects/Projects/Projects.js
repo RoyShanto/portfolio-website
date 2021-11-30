@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Project from '../Project/Project';
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
@@ -8,15 +9,12 @@ const Projects = () => {
             .then(data => setProjects(data))
     }, [])
     return (
-        <div className="container">
-            <h1>All Projects</h1>
-            <div className="row">
+        <div className="pt-2">
+            <h1>My Projects</h1>
+            <div className="row row-cols-1 row-cols-md-3 g-4">
+
                 {
-                    projects.map(p =>
-                        <div className="col-md-4">
-                            <h3>{p.projectName}</h3>
-                            <p>{p.shortDescription}</p>
-                        </div>)
+                    projects.map(p => <Project key={p.id} project={p} />)
                 }
             </div>
         </div>
